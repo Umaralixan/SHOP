@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body class="dark:bg-dark">
+    <div
+      class="bg-primary text-[#670A18] text-center py-2.5 dark:bg-slate-900 dark:text-white max-lg:hidden"
+    >
+      <p class="text-xs">
+        SHIPPING AND RETURNS ARE ALWAYS FREE FROM OUR PLACE TO YOURS 🙂
+      </p>
+    </div>
+    <header class="">
+      <nav
+        class="container flex h-[82px] justify-between items-center relative dark:text-white"
+      >
+        <div class="flex gap-8 uppercase font-bold text-[13px] max-md:hidden">
+          <a href="#">
+            <span>Shop</span>
+          </a>
+          <a href="#">
+            <span>Always Pan</span>
+          </a>
+        </div>
+        <div class="absolute max-md:static left-1/2 md:-translate-x-1/2">
+          <img
+            src="./src/assets/logo-wight.svg"
+            class="max-md:w-24 hidden dark:block"
+            alt=""
+          />
+          <img
+            src="./src/assets/logo.svg"
+            class="max-md:w-24 block dark:hidden"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex items-center gap-8 uppercase font-bold text-[13px] max-md:hidden"
+        >
+          <a href="#">
+            <span>Mission</span>
+          </a>
+          <a href="#">
+            <span>FAQs</span>
+          </a>
+          <button
+            onclick="darkMode()"
+            class="size-9 flex items-center justify-center text-white dark:bg-amber-950 bg-[#C87B5E] rounded-full"
+            href="#"
+          >
+            <div class="block dark:hidden">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="hidden dark:block">
+              <i class="fa-solid fa-sun"></i>
+            </div>
+          </button>
+        </div>
+        <button class="hidden max-md:block">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="h-[604px] flex items-center pl-[22%] max-md:pl-4 max-[500px] h-[450px] relative"
+      >
+        <img
+          src="./src/assets/hero.png"
+          class="absolute top-0 left-0 dark:brightness-50 w-full h-full object-cover"
+          alt="img"
+        />
+        <div class="dark:text-white relative">
+          <p class="uppercase">Mest The Always Pan</p>
+          <h1 class="text-[50px] max-[50px] text-4xl mb-14 mt-2">
+            Your new <br />
+            <span class="underline">skillet</span>
+          </h1>
+          <button
+            class="py-5 px-10 max-[500px]: py-3 max-[500px]: px-7 max-[500px]: font-semibold bg-[#D37657] uppercase text-white"
+          >
+            Shop the Always Pan
+          </button>
+        </div>
+      </section>
+      <section class="container mx-auto mt-[100px]">
+        <div class="flex items-center justify-between">
+          <div class="w-[50%]">
+            <h4
+              class="text-[#35312E] text-[41px] text-center font-bold dark:text-white"
+            >
+              Welcome to Our <br />
+              Place
+            </h4>
+          </div>
+          <div class="w-[50%]">
+            <p class="dark:text-white text-[16px] text-[#4F463F] font-semibold">
+              At Our Place, we believe in the power of home-cooking to bring
+              people together. Our collections are new heirlooms from the
+              cultures and places that make up the fabric of the modern
+              multi-ethnic kitchen. We design thoughtfully, source ethically,
+              and produce sustainably because what we make is connected to one
+              another and the earth we share.
+            </p>
+          </div>
+        </div>
+      </section>
+      <article class="h-[900px] dark:bg-slate-900 bg-[#FBF6EA] mt-[100px]">
+        <div class="container mx-auto">
+          <div class="pt-[70px]">
+            <h5
+              class="text-center text-[35px] font-normal text-[#35312E] dark:text-white"
+            >
+              Designed for Everything and Always
+            </h5>
+            <img
+              src="./src/assets/Frame.svg"
+              class="block mx-auto pt-[30px]"
+              alt="img"
+            />
+          </div>
+          <div class="flex justify-center ml-[150px] mt-[45px]">
+            <div>
+              <p
+                class="relative top-[15%] dark:text-white left-[0%] text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              >
+                Modular lid to <br />
+                release & trap steam
+              </p>
+              <p
+                class="text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              ></p>
+              <p
+                class="relative top-[60%] dark:text-white left-[35%] text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              >
+                2 easy-pour <br />
+                spouts
+              </p>
+              <p
+                class="relative top-[75%] dark:text-white text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              >
+                Exclusive, ceramic <br />
+                nonstick made without <br />
+                PFOAs & PTFEs
+              </p>
+            </div>
+            <img src="./src/assets/Rectangle.svg" alt="img" />
+            <div>
+              <p
+                class="relative top-[5%] right-[130%] dark:text-white text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              >
+                Beechwood spatula & <br />
+                built-in spoon rest
+              </p>
+              <p
+                class="relative top-[45%] right-[125%] dark:text-white text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              >
+                Nesting steamer basket & <br />
+                colander
+              </p>
+              <p
+                class="relative top-[70%] right-[100%] dark:text-white text-center text-[#6E6259] text-[12px] uppercase font-normal"
+              >
+                Stay cool handle
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside class="">
+        <div class="container mx-auto">
+          <h3
+            class="text-[#35312E] text-[33px] text-center font-bold mt-[70px] dark:text-white"
+          >
+            From curated essentials to <br />
+            limited-run editions.
+          </h3>
+          <p
+            class="text-[#4F463F] dark:text-white text-center text-[18px] font-normal mt-[18px]"
+          >
+            We make products inspired by traditions – and we're <br />
+            starting with one you might be familiar with: Dinner.
+          </p>
+          <div class="flex items-center justify-between mt-[80px]">
+            <div
+              class="w-[250px] h-[220px] dark:bg-slate-900 bg-[#FBF6EA] rounded-[50%]"
+            >
+              <img
+                class="relative bottom-[35%]"
+                src="./src/assets/img1.svg"
+                alt="img"
+              />
+              <p
+                class="text-[18px] text-[#35312E] text-center font-normal relative bottom-[50px] uppercase dark:text-white"
+              >
+                Side Bowls <br />
+                SET OF 4 - $45
+              </p>
+              <p
+                class="text-center text-[#6E635A] text-[14px] font-normal relative bottom-[40px] dark:text-white"
+              >
+                Hand-painted porcelain <br />
+                stackable bowls, designed for <br />plating, eating, and
+                scooping.
+              </p>
+              <img
+                class="block mx-auto"
+                src="./src/assets/img2.svg"
+                alt="img"
+              />
+            </div>
+
+            <div
+              class="w-[250px] h-[220px] dark:bg-slate-900 bg-[#FBF6EA] rounded-[50%]"
+            >
+              <img
+                class="relative bottom-[35%]"
+                src="./src/assets/img6.svg"
+                alt="img"
+              />
+              <p
+                class="text-[18px] text-[#35312E] text-center font-normal relative bottom-[50px] uppercase dark:text-white"
+              >
+                Drinking Glasses <br />
+                SET OF 4 - $50
+              </p>
+              <p
+                class="text-center text-[#6E635A] text-[14px] font-normal relative bottom-[40px] dark:text-white"
+              >
+                Hand-made and stackable. <br />
+                Made from recycled glass <br />
+                and natural sand. Naturally <br />
+                colored, without dyes.
+              </p>
+              <img
+                class="block mx-auto relative bottom-[20px]"
+                src="./src/assets/img5.svg"
+                alt="img"
+              />
+            </div>
+
+            <div
+              class="w-[250px] h-[220px] dark:bg-slate-900 bg-[#FBF6EA] rounded-[50%]"
+            >
+              <img
+                class="relative bottom-[35%]"
+                src="./src/assets/img7.svg"
+                alt="img"
+              />
+              <p
+                class="text-[18px] text-[#35312E] text-center font-normal relative bottom-[50px] uppercase dark:text-white"
+              >
+                Main Plates <br />
+                SET OF 4 - $50
+              </p>
+              <p
+                class="text-center text-[#6E635A] text-[14px] font-normal relative bottom-[40px] dark:text-white"
+              >
+                Hand-painted porcelain <br />
+                plates, stackable and <br />
+                designed for big appetites.
+              </p>
+              <img
+                class="block mx-auto"
+                src="./src/assets/img2.svg"
+                alt="img"
+              />
+            </div>
+
+            <div
+              class="w-[250px] h-[220px] dark:bg-slate-900 bg-[#FBF6EA] rounded-[50%]"
+            >
+              <img
+                class="relative top-[20%]"
+                src="./src/assets/img8.svg"
+                alt="img"
+              />
+              <p
+                class="text-[18px] text-[#35312E] text-center font-normal relative bottom-[0px] mt-[65px] uppercase dark:text-white"
+              >
+                Main Plates <br />
+                SET OF 4 - $50
+              </p>
+              <p
+                class="text-center text-[#6E635A] text-[14px] font-normal relative bottom-[0px] mt-[10px] dark:text-white"
+              >
+                Hand-painted porcelain <br />
+                plates, stackable and <br />
+                designed for big appetites.
+              </p>
+              <img
+                class="block mx-auto mt-[35px]"
+                src="./src/assets/Frame.svg"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
